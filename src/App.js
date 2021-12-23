@@ -9,9 +9,9 @@ import GlobalStyle, { Title } from './style/style';
 function App() {
   return (
     <Provider>
+      <GlobalStyle />
       <Title>Projeto Star Wars - Trybe!</Title>
       <FilterInput />
-      <GlobalStyle />
       <FiltersSettings />
       <SavedFilters />
       <RenderTable />
